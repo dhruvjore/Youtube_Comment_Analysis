@@ -15,4 +15,13 @@ This tool fetches all comments from any public YouTube video, saves them with th
 ---
 
 ## 📁 Project Structure
+Youtube_Comments_Analysis/
+├── data/ # Saved CSV files
+├── src/ # Core logic
+│ └── fetch_comments.py
+├── streamlit_app/ # Streamlit frontend
+│ └── app.py
+├── .env # (not committed) contains YOUTUBE_API_KEY
+├── requirements.txt
+└── README.md
 
